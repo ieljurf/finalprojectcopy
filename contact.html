@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ida El-Jurf">
+    <meta name="description" content="Contact us for your perfect escape in the Swiss Alps.">
+    <title>Contact - Mountain Haven Lodge</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<header>
+    <h1><a href="index.html">Mountain Haven Lodge</a></h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Accommodations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <img class="header-image" src="images/swiss-valley.jpg" alt="Beautiful view of the Swiss valley">
+</header>
+
+<main class="content-section contact-page">
+    <section class="left-column">
+        <h2>Contact Us</h2>
+        <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+        <img src="images/swiss-peak.jpg" alt="View of Swiss peak" class="image-block-contact" width="350" height="455">
+    </section>
+    
+    <section class="right-column" aria-label="Contact Form">
+        <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+            <label for="full-name">Full Name *</label>
+            <input type="text" id="full-name" required>
+
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" required>
+
+            <label for="phone">Phone Number *</label>
+            <input type="tel" id="phone" required>
+
+            <fieldset>
+                <legend>Preferred Contact Method *</legend>
+                <label>
+                    <input type="radio" name="preferred-contact" value="email" required>
+                    Email
+                </label>
+                <label>
+                    <input type="radio" name="preferred-contact" value="phone" required>
+                    Phone
+                </label>
+            </fieldset>
+
+            <label for="comments">Comments *</label>
+            <textarea id="comments" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>Copyright ©2023 - Mountain Haven Lodge</p>
+    <p>This site is for educational purposes only</p>
+</footer>
+
+</body>
+</html>
